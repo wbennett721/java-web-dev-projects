@@ -87,6 +87,13 @@ public class Car {
         this.setGasTankLevel(gas + this.getGasTankLevel());
     }
 
+    @Override
+    public String toString() {
+        return "Car{" +
+                "make='" + make + '\'' +
+                ", model='" + model + '\'' +
+                '}';
     }
+}
 
 
