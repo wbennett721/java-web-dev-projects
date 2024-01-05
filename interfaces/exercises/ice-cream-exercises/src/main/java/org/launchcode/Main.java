@@ -1,15 +1,18 @@
 package org.launchcode;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Comparator;
+import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
         Case menu = new Case();
         ArrayList<Flavor> flavors = menu.getFlavors();
         ArrayList<Cone> cones = menu.getCones();
-        Comparator comparator = new FlavorComparator();
+        Comparator<Flavor> comparator = new FlavorComparator();
         flavors.sort(comparator);
+
 
     }
         // TODO: Use a Comparator class to sort the 'flavors' array alphabetically by the 'name' field.
