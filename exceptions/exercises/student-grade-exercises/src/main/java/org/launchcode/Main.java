@@ -15,13 +15,14 @@ public class Main {
         // Test out your CheckFileExtension() function!
     }
 
-    public static void Divide(int x, int y)
-    {
+    public static void Divide(int x, int y) {
+        return;
         // Write code here!
     }
 
-    public static int CheckFileExtension(String fileName)
-    {
-        // Write code here!
+    public static int CheckFileExtension(String fileName) {
+        return 1;
     }
 }
+        // Write code here!
+
